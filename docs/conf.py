@@ -25,7 +25,7 @@ author = 'Zeyu Deng'
 # The full version, including alpha/beta/rc tags
 __version__ = None
 src_dir = os.path.abspath(os.path.dirname(__file__))
-version_file = os.path.join('../../kmcpy', '_version.py')
+version_file = os.path.join('../kmcpy', '_version.py')
 with io_open(version_file, mode='r') as fd:
     exec(fd.read())
 
